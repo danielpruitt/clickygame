@@ -1,3 +1,11 @@
+#Clicky Game 
+This game was built with React. 
+This utilizes basic features of React to be able to play a memory game. 
+
+Click on a Pokemon to begin, with each click the score will increase until there is a wrong click.
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

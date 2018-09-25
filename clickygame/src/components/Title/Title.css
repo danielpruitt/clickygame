@@ -1,0 +1,16 @@
+.title {
+  text-align: center;
+  background-color: #3c5aa6;
+  color: rgb(221, 228, 233);
+  margin-bottom: 50px;
+}
+
+.pokeblue {
+  background-color: #3c5aa6;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.pokeyellow {
+  color: #FFCB05;
+  font-family: 'Nunito Sans', sans-serif;
+}

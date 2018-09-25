@@ -2,9 +2,6 @@
 import React from "react";
 import "./Title.css";
 import Instructions from "../Instructions";
-import Scoreboard from "../Scoreboard";
-import ReactiveText from "../ReactiveText";
-
 
 const Title = () =>
     <div className = "pokeblue">

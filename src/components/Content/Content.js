@@ -61,7 +61,7 @@ class Content extends React.Component {
 
         //handle the clicks on each image.
         handleImageClick = (name, selected) => {
-            if (this.state.topScore == 12) {
+            if (this.state.topScore === 12) {
                 this.handleWin()
             };
             //store pokemon in a new variable to minimize confusion

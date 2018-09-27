@@ -6,7 +6,7 @@ const Image = (props) => {
 
     return (
         <div className={"col-3"}>
-            <img key="" className={"img-thumbnail rounded img-fluid shadow-lg sizing"} src={img} onClick={() => props.handleImageClick(props.id, props.selected)}></img>
+            <img key="" className={"img-thumbnail rounded img-fluid shadow-lg p3 mb5 sizing"} src={img} onClick={() => props.handleImageClick(props.id, props.selected)}></img>
         </div>
     );
 

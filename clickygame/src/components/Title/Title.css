@@ -7,10 +7,17 @@
 
 .pokeblue {
   background-color: #3c5aa6;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
+  
 }
 
 .pokeyellow {
   color: #FFCB05;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
+  
+}
+
+.bungee {
+  font-family: 'Bungee Shade', cursive;
+  color: #FFCB05;
 }

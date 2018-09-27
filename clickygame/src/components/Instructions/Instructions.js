@@ -7,9 +7,9 @@ const Instructions = () =>
         <div className="row">
             <div className="col">
                 <div className="center pokeyellow">
-                    <p>How to play: Click on a tile! Make sure to click it only once and try to get a perfect score of 12!  </p>
+                    <p>How to play: Click on a Legendary Pokemon but make sure not to click it again!  </p>
                     
-                    <p>Clicking on a tile for a second time in the same round will reset your score.</p>
+                    <p></p>
                 </div>
             </div>
         </div>

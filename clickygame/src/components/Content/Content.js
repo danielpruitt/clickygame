@@ -1,5 +1,6 @@
 //imports
 import React from "react";
+import "./Content.css"
 import Title from "../Title";
 import Image from "../Image";
 import Scoreboard from "../Scoreboard";
@@ -28,6 +29,15 @@ class Content extends React.Component {
         this.setState({
             topScore: this.state.topScore + 1
         });
+        console.log(this.state.topScore)
+        if (this.state.topScore === 11 ){
+            alert("You Win!")
+            this.setState({
+                score: 0
+            })
+        }
+        
+
     };
 
     //round loss, triggers on incorrect guess
@@ -52,18 +62,9 @@ class Content extends React.Component {
         });
     };
 
-    //handle win figure out how to trigger this
-    handleWin = () => {
-        this.setState({
-            message: "You Win!"
-        })
-    };
 
         //handle the clicks on each image.
         handleImageClick = (name, selected) => {
-            if (this.state.topScore == 12) {
-                this.handleWin()
-            };
             //store pokemon in a new variable to minimize confusion
             let pokemonArr = pokemon;
 
@@ -105,11 +106,11 @@ class Content extends React.Component {
         render() {
             return (
                 <div>
-                    <div className="shadow-sm">
+                    <div className="">
                         <Title />
                         <div class="row">
                             <div className="col-8">
-                                <Scoreboard handleImageClick={this.handleImageClick} score={this.state.score} topScore={this.state.topScore} />
+                                <Scoreboard  handleImageClick={this.handleImageClick} score={this.state.score} topScore={this.state.topScore} handleWin={this.handleWin} />
                             </div>
                             <div className="col-4">
                                 <ReactiveText handleImageClick={this.handleImageClick} message={this.state.message} />
